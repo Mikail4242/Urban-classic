@@ -1,0 +1,1457 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/* all navbars header  */
+.navbar-1 {
+	background-color: black;
+	color: white;
+	width: 100%;
+	position: fixed;
+}
+.navbar-2 {
+	background-color: white;
+	color: black;
+}
+
+.navbar-2 .menu-2 {
+	display: flex;
+	justify-content: space-between;
+	width: 49%;
+	list-style-type: none;
+	padding: 0px 100px;
+}
+
+.navbar-2 .menu-2 li {
+	margin: 10px;
+}
+
+.navbar-2 .menu-2 li a {
+	color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-1 .menu-1 {
+	display: flex;
+	width: 100%;
+	list-style-type: none;
+	padding: 0px 100px;
+	margin-top: -10px;
+}
+
+.navbar-1 .menu-1 a {
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+.male,
+.female {
+	padding: 15px 10px;
+	position: relative;
+	top: 5px;
+}
+.bgn {
+	padding: 15px 60px;
+	position: relative;
+	top: 5px;
+}
+
+.fashion {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	font-size: 32px;
+	position: relative;
+	top: 5px;
+}
+
+.images {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+}
+.arrow {
+	color: white;
+	position: relative;
+	right: 55px;
+	top: 5px;
+}
+
+.devider {
+	color: white;
+	position: relative;
+	right: 50px;
+	top: 5px;
+}
+
+.form-1 {
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	left: 135%;
+}
+
+.Deliver-message {
+	background-color: orange;
+	padding: 7px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+}
+
+.image-banner {
+	background-image: url("mens wear -lenta-01.png");
+	background-repeat: no-repeat;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.male-collection {
+	color: white;
+	font-family: sans-serif;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.accessories-1 {
+	display: flex;
+	background-color: rgb(41, 41, 41);
+	color: white;
+	border-style: solid;
+	border-color: rgb(41, 41, 41);
+	padding: 2px 15px 2px 15px;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+.navbar-2 .menu-2 .accessories-2 a,
+.navbar-2 .menu-2 .shoes a,
+.navbar-2 .menu-2 .sale a,
+.navbar-2 .menu-2 .FAQ a,
+.navbar-2 .menu-2 .cart-1 a {
+	font-weight: bold;
+}
+
+.navbar-2 .menu-2 .bottom-border a:hover,
+.navbar-2 .menu-2 .bottom-border a:hover,
+.navbar-2 .menu-2 .bottom-border a:hover,
+.navbar-2 .menu-2 .bottom-border a:hover {
+	border-bottom: solid black 3px;
+	padding-bottom: 3px;
+	transition: ease-in-out 0.2s;
+}
+
+.summer {
+	display: flex;
+	background-color: rgb(41, 41, 41);
+	color: white;
+	border-style: solid;
+	border-color: rgb(41, 41, 41);
+	padding: 2px 10px 2px 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.text-1 {
+	padding: 0px 5px 0px 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-2 {
+	padding: 0px 5px 0px 5px;
+}
+
+/* Search bar */
+.search-bar {
+	margin: 10px;
+	background: none;
+	border-bottom: 1px solid grey;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.search-bar:focus {
+	outline: none;
+	border-bottom: 2px solid grey;
+	color: grey;
+}
+
+.fas {
+	color: grey;
+	font-size: 2em;
+}
+.blank {
+	width: 100%;
+	height: 40px;
+}
+
+/* Section */
+
+.image-banner-width {
+	background-image: url("man backround.PNG");
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-top: 1px;
+	z-index: -1;
+}
+
+.new-collection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	height: 100%;
+}
+
+.text-3 {
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.text-4 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.btn-1 {
+	border-style: solid;
+	border-color: orange;
+	padding: 7px 15px 7px 15px;
+	margin-top: 10px;
+}
+.btn-1:hover {
+	background-color: orange;
+	color: white;
+	transition: ease-in-out 0.2s;
+}
+
+.container,
+.container-2 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.container p,
+.container-2 .text-8 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: white;
+	height: 200px;
+}
+
+.jackets {
+	background-image: url("men jacket.png");
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	margin: 10px;
+}
+
+.t-shirts {
+	background-image: url("men teniski.png");
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	margin: 10px;
+}
+
+.switcher {
+	background-image: url("men sweatshirt.png");
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	margin: 10px;
+}
+
+.trousers {
+	background-image: url("men ancuzi.png");
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	margin: 10px;
+}
+
+.pants {
+	background-image: url("men jeans.png");
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	margin: 10px;
+}
+.accessories {
+	background-image: url("men aksesoari.png");
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	margin: 10px;
+}
+
+.container-1 {
+	display: flex;
+	justify-content: center;
+}
+
+.item {
+	width: 350px;
+	text-align: center;
+	display: block;
+	background-color: transparent;
+	border: 1px solid transparent;
+	margin-right: 10px;
+	margin-bottom: 1px;
+	float: left;
+}
+
+.text-6 {
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.text-7 {
+	font-weight: lighter;
+	color: rgb(158, 158, 158);
+}
+
+.container-2 .text-9 {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.collection-1 {
+	background-image: url("random 1 new.png");
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 300px;
+	margin: 10px;
+}
+
+.collection-2 {
+	background-image: url("random 2 new.png");
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 300px;
+	margin: 10px;
+}
+
+.collection-3 {
+	background-image: url("random 3 new.png");
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 300px;
+	margin: 10px;
+}
+
+.collection-4 {
+	background-image: url("random 4 new.png");
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 300px;
+	margin: 10px;
+}
+
+.new-products {
+	text-align: center;
+}
+
+.item-1 {
+	width: 200px;
+	text-align: center;
+	display: block;
+	background-color: transparent;
+	border: 1px solid transparent;
+	margin-bottom: 1px;
+	margin: 0 auto;
+}
+
+.text-10 {
+	color: black;
+}
+
+/* slider */
+
+/* .owl-carousel.owl-loaded {
+	z-index: -1;
+}
+.owl-nav button {
+	position: absolute;
+	top: 50%;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+	transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+	left: 0;
+}
+.owl-nav button.owl-next {
+	right: 0;
+}
+
+.owl-dots {
+	text-align: center;
+	padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #ccc;
+	margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+	background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+	outline: none;
+}
+.owl-nav button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+	font-size: 70px;
+	position: relative;
+	top: -5px;
+}
+.owl-nav button:focus {
+	outline: none;
+} */
+
+/* end */
+
+/* ADDCARTSHOP PAGE */
+
+.products-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 650px;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.incart-2 {
+	color: red;
+}
+
+.products-container ion-icon {
+	font-size: 25px;
+	color: blue;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.product-header {
+	width: 100%;
+	max-width: 650px;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 4px solid lightgrey;
+	margin: 0 auto;
+}
+
+.product-title {
+	width: 45%;
+}
+
+.price {
+	width: 15%;
+
+	display: flex;
+	align-items: center;
+}
+
+.quantity {
+	width: 30%;
+	border-bottom: 1px solid lightgray;
+	display: flex;
+	align-items: center;
+}
+
+.total {
+	width: 10%;
+	border-bottom: 1px solid lightgrey;
+	display: flex;
+	align-items: center;
+}
+
+.product {
+	width: 105%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid lightgray;
+}
+
+/* Slider show*/
+.slider {
+	overflow: hidden;
+}
+
+.slides {
+	width: 100%;
+	height: 450px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+	margin: 10px;
+}
+
+.navigation-manual {
+	position: absolute;
+	width: 100%;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 1px solid #40d3dc;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: #40d3dc;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 1%;
+}
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+	margin-left: -60%;
+}
+
+/* automatic navigation */
+
+.navigation-auto {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 409px;
+}
+
+.navigation-auto div {
+	border: 2px solid #40d3dc;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+	margin-right: 38px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+	background: #40d3dc;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+	background: #40d3dc;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+	background: #40d3dc;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+	background: #40d3dc;
+}
+
+/* Add to cart */
+
+.cart {
+	font-size: 17px;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+
+/* end */
+
+.image-new-trousers {
+	background: url("new-trousers.svg");
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 600px;
+	margin: 10px;
+}
+
+.image-hand-gold {
+	background: url("hand-gold.svg");
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 600px;
+	margin: 10px;
+}
+
+.container-4 {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+.Urban-comfort {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	height: 100%;
+	position: relative;
+	top: 180px;
+}
+
+.hand-gold {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	height: 100%;
+	position: relative;
+	top: 180px;
+}
+
+.text-11,
+.text-14 {
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.text-12,
+.text-13 {
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+.text-15 {
+	font-family: sans-serif;
+	position: relative;
+	margin-left: 150px;
+}
+
+.text-16,
+.text-17 {
+	font-family: sans-serif;
+	position: relative;
+	margin-left: 150px;
+	width: 85%;
+	font-weight: lighter;
+	color: rgb(158, 158, 158);
+	padding: 5px;
+}
+
+.container-5 {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	padding-top: 20px;
+	position: relative;
+	left: 140px;
+}
+
+.socials {
+	display: flex;
+}
+
+.socials p {
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.socials img {
+	position: relative;
+	bottom: 10px;
+	margin-left: 5px;
+}
+
+.pay {
+	display: flex;
+}
+
+.pay img {
+	position: relative;
+	bottom: 15px;
+	right: 10px;
+}
+
+.pay-images {
+	position: relative;
+	right: 20px;
+	font-weight: bold;
+}
+
+.cash-on-delivery {
+	border: 1px solid rgb(158, 158, 158);
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+	bottom: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bold {
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.useful-info {
+	padding: 10px;
+	position: relative;
+	left: 100px;
+}
+
+.useful-info h4 {
+	padding: 5px;
+}
+
+.useful-info p {
+	color: rgb(158, 158, 158);
+	padding: 5px;
+}
+
+.container-6 {
+	display: flex;
+	justify-content: center;
+	width: 85%;
+}
+
+.subscribe {
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid rgb(37, 37, 37);
+	box-sizing: border-box;
+	font-size: 20px;
+	padding: 5px 80px 5px 80px;
+}
+
+.img-email {
+	position: relative;
+	top: 4px;
+}
+
+.img-items {
+	/* width: 400px; */
+	height: 300px;
+}
+
+.subs-button {
+	border: none;
+	background-color: white;
+}
+
+/* Accordion */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	margin: 2rem 0;
+	font-size: 2.5rem;
+}
+
+.accordion {
+	width: 80%;
+	max-width: 1000px;
+	margin: 2rem auto;
+}
+.accordion-item {
+	background-color: orange;
+	color: white;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion-item-header {
+	padding: 0.5rem 3rem 0.5rem 1rem;
+	min-height: 3.5rem;
+	line-height: 1.25rem;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+.accordion-item-header::after {
+	content: "\002B";
+	font-size: 2rem;
+	position: absolute;
+	right: 1rem;
+}
+.accordion-item-header.active::after {
+	content: "\2212";
+}
+.accordion-item-body {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+	padding: 1rem;
+	line-height: 1.5rem;
+	border-top: 1px solid;
+	border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+@media (max-width: 767px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+/* MEDIA QUERIES  769px — 1024px: Small screens and small laptops */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.navbar-1 {
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+	.bgn {
+		position: relative;
+		left: 140px;
+	}
+
+	.fashion {
+		position: relative;
+		left: 75px;
+		font-size: 25px;
+	}
+
+	.menu-1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+	}
+
+	.images {
+		position: relative;
+		width: 100%;
+		bottom: 50px;
+		margin-bottom: 20px;
+		margin-left: 100px;
+	}
+
+	.cart {
+		position: absolute;
+		right: 7px;
+	}
+
+	.arrow {
+		position: relative;
+		left: 80px;
+	}
+
+	.devider {
+		position: relative;
+		left: 90px;
+	}
+
+	.male,
+	.female {
+		font-size: 20px;
+		position: relative;
+		right: 40px;
+	}
+
+	.nav-menu {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.form-1 {
+		display: none;
+	}
+
+	.menu-2 {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		position: relative;
+		left: 20px;
+	}
+
+	.Deliver-message p {
+		font-size: 15px;
+	}
+
+	.image-banner {
+		display: flex;
+		justify-content: center;
+	}
+
+	.image-banner-width {
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.new-collection {
+		position: relative;
+		width: 100%;
+	}
+
+	.nav-fashion {
+		width: 100%;
+	}
+
+	.container-1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container-4 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.container-5 {
+		width: 90%;
+		position: relative;
+		left: 55px;
+	}
+
+	.container-6 {
+		width: 100%;
+		position: relative;
+		right: 100px;
+	}
+
+	.text-container {
+		position: relative;
+		right: 70px;
+	}
+
+	.fashion-2 {
+		font-size: 20px;
+		position: relative;
+		right: 50px;
+	}
+
+	.pay {
+		position: relative;
+		right: 50px;
+	}
+
+	.subscribe {
+		border: 1px solid black;
+		padding: 10px;
+	}
+	.socials {
+		position: relative;
+		right: 55px;
+	}
+	.image-hand-gold,
+	.image-new-trousers {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hand-gold,
+	.Urban-comfort {
+		height: 0;
+		position: inherit;
+	}
+	.tablet-size-1 {
+		width: 200px;
+		height: 270px;
+	}
+}
+
+/* MEDIA QUERIES  481px — 768px: iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.form-1 {
+		display: none;
+	}
+
+	.image-hand-gold,
+	.image-new-trousers {
+		height: 400px;
+		width: 450px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hand-gold,
+	.Urban-comfort {
+		height: 0;
+		position: inherit;
+	}
+
+	.male,
+	.female {
+		font-size: 12px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		right: 20px;
+	}
+
+	.bgn {
+		display: flex;
+		align-items: center;
+		position: relative;
+	}
+	.fashion {
+		display: flex;
+		align-items: center;
+		position: relative;
+		left: 10px;
+	}
+
+	.navbar-2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.Deliver-message {
+		font-size: 10px;
+	}
+
+	.image-banner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.new-collection {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.text-3,
+	.text-4 {
+		font-size: 20px;
+	}
+
+	.container,
+	.container-1,
+	.container-2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.owl-stage {
+		position: relative;
+		right: 100px;
+	}
+
+	.container-3 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.container-4 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.text-16,
+	.text-17 {
+		font-size: 10px;
+	}
+
+	.text-container {
+		position: relative;
+		right: 100px;
+	}
+
+	.container-5 {
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.fashion-2 {
+		font-size: 0px;
+		font-weight: bolder;
+		position: relative;
+		bottom: 50px;
+		left: 100px;
+	}
+
+	.socials {
+		font-size: 10px;
+		position: relative;
+		right: 110px;
+		top: 5px;
+	}
+
+	.socials img {
+		width: 15px;
+		height: 15px;
+		position: relative;
+		top: 1px;
+		padding-left: 1px;
+	}
+
+	.pay {
+		position: relative;
+		right: 70px;
+	}
+
+	.pay-images {
+		font-size: 10px;
+	}
+	.cash-on-delivery {
+		font-size: 10px;
+	}
+
+	.container-6 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		right: 100px;
+	}
+
+	.useful-info {
+		font-size: 10px;
+	}
+
+	.subscribe {
+		border: 1px solid black;
+		padding: 10px;
+	}
+
+	.bold {
+		font-size: 12px;
+	}
+
+	/* Chat bot */
+
+	/* end */
+}
+
+/* MEDIA QUERIES  320px — 480px: smartphones */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+	.navbar-1 {
+		position: static;
+	}
+	.blank {
+		display: none;
+	}
+	.nav-fashion {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px;
+	}
+	.menu-1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 12px;
+		width: 100%;
+	}
+
+	.menu-2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 20px;
+	}
+
+	.navbar-2 .menu-2 {
+		width: 100%;
+	}
+	.fashion {
+		font-size: 35px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.female,
+	.male {
+		font-size: 20px;
+	}
+
+	.images {
+		padding-right: 25px;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.cart {
+		position: absolute;
+		left: 18px;
+	}
+	.order-1 {
+		order: 3;
+	}
+	.order-2 {
+		order: 2;
+	}
+	.order-3 {
+		order: 1;
+	}
+	.order-4 {
+		order: 4;
+		font-size: 18px;
+	}
+
+	.order-5 {
+		order: 5;
+		position: relative;
+		left: 12px;
+	}
+
+	.form-1 {
+		display: none;
+	}
+
+	.arrow,
+	.devider {
+		display: none;
+	}
+
+	.male-collection {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		left: 0px;
+		font-size: 22px;
+	}
+
+	.text-3 {
+		font-size: 30px;
+	}
+
+	.container,
+	.container-1,
+	.container-2,
+	.container-4 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.mobile-size-text {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		top: 100px;
+	}
+
+	.text-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.text-15,
+	.text-16,
+	.text-17 {
+		margin-left: 10px;
+		font-size: 15px;
+	}
+
+	.container-5 {
+		position: relative;
+		left: 0px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.pay-images,
+	.follow-us,
+	.fashion-2 {
+		display: none;
+		font-weight: bold;
+	}
+
+	.pay,
+	.socials {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		position: relative;
+		top: 20px;
+		left: 20px;
+	}
+
+	.socials img,
+	.pay img {
+		padding-left: 0px;
+		position: relative;
+		right: 10px;
+		margin-top: 5px;
+	}
+
+	.cash-on-delivery {
+		padding: 10px 50px 10px 50px;
+	}
+
+	.container-6 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.useful-info {
+		position: relative;
+		left: 0px;
+	}
+
+	.Mobile-size-1,
+	.image-new-trousers,
+	.image-hand-gold {
+		width: 250px;
+	}
+
+	.item {
+		width: 250px;
+	}
+
+	.text-6,
+	.text-7,
+	.btn-2 {
+		position: relative;
+		bottom: 100px;
+		font-size: 18px;
+	}
+
+	.text-6 {
+		color: black;
+	}
+	.text-7 {
+		color: rgb(158, 158, 158);
+	}
+
+	.color-6 {
+		color: white;
+	}
+
+	.Urban-comfort,
+	.hand-gold {
+		position: relative;
+		top: 0px;
+	}
+
+	.text-12,
+	.text-13 {
+		font-size: 20px;
+	}
+
+	.text-3 {
+		position: relative;
+		bottom: 20px;
+		font-size: 25px;
+	}
+	.summer {
+		width: 300px;
+	}
+	.text-1,
+	.text-2 {
+		font-size: 15px;
+	}
+	.text-4 {
+		font-size: 17px;
+	}
+	.text-5 {
+		font-size: 20px;
+	}
+	.text-10 {
+		font-size: 20px;
+		position: relative;
+		bottom: 10px;
+	}
+	.image-banner-width {
+		position: relative;
+		left: 0px;
+	}
+	.fix-position {
+		position: inherit;
+	}
+	.accessories-1 {
+		font-size: 20px;
+	}
+}
